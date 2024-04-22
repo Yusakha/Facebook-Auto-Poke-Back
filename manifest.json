@@ -1,0 +1,19 @@
+{
+    "name": "Facebook Auto Poke Back",
+    "action": {},
+    "manifest_version": 3,
+    "version": "0.1",
+    "description": "Auto click on Poke Back! and be a King Pokes",
+    "permissions": [
+        "activeTab",
+        "alarms",
+        "scripting",
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://www.facebook.com/*"
+      ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
